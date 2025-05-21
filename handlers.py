@@ -3,7 +3,7 @@ from aiogram.types import Message # Тип данных для сообщени�
 from aiogram.filters import CommandStart # Фильтр для команды /start
 from aiogram.fsm.state import State, StatesGroup # Для управления состояниями
 from aiogram.fsm.context import FSMContext # Контекст для состояний
-from app.generate import ai_generate # Функция для генерации контента
+from generate import ai_generate # Функция для генерации контента
 
 
 router = Router() # Создаем роутер
